@@ -1,0 +1,36 @@
+/* sporkl.css */
+
+/* imports, etc. */
+
+@import url("chota.css");
+
+@font-face {
+  font-family: "fjord";
+  src: url("/fjordone.otf"), url("/fjordone.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "iosevka";
+  src: url("/iosevka-fixed-slab-medium.otf"), url("/iosevka-fixed-slab-medium.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* css vars for chota/etc. */
+
+/* TODO: add var for darken/lighten percent for secondary colors, and use */
+/* TODO: add dark mode based off existing CSS vars */
+/* TODO: add html template to sporkl-css */
+
+:root {
+    --bg-color: #E6E1DC;
+    --color-primary: #A6C166;
+    --font-size: 1.6rem; /* 12pt */
+    --font-color: #2B2B2B;
+    --font-family-sans: "fjord", serif;
+    --font-family-serif: "fjord", serif;
+    --font-family-mono: "iosevka", monospace;
+}
