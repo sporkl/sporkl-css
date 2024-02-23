@@ -18,7 +18,6 @@
   font-style: normal;
 }
 
-
 /* css vars for chota/etc. */
 
 :root {
@@ -89,4 +88,12 @@ ol {
 
 .button.dark, .button.error, .button.primary, .button.secondary, .button.success {
   color: var(--font-color);
+}
+
+.tabs > a {
+  border-bottom-color: var(--color-darkGrey);
+}
+
+.tabs > a:hover {
+  border-bottom-color: var(--color-lightGrey);
 }
