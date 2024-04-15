@@ -6,14 +6,14 @@
 
 @font-face {
   font-family: "fjord";
-  src: url("/fjordone.otf"), url("/fjordone.woff");
+  src: url("fjordone.otf"), url("fjordone.woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "iosevka";
-  src: url("/iosevka-fixed-slab-medium.otf"), url("/iosevka-fixed-slab-medium.woff");
+  src: url("iosevka-fixed-slab-medium.otf"), url("iosevka-fixed-slab-medium.woff");
   font-weight: normal;
   font-style: normal;
 }
