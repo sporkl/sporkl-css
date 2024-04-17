@@ -97,3 +97,8 @@ ol {
 .tabs > a:hover {
   border-bottom-color: var(--color-lightGrey);
 }
+
+.is-full-screen {
+  height: 100vh;
+  min-height: 100vh;
+}
