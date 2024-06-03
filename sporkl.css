@@ -47,6 +47,10 @@
 
 /* other customizations */
 
+body {
+  tab-size: 2;
+}
+
 a {
   color: var(--url-color);
   text-decoration: underline;
